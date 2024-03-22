@@ -9,6 +9,7 @@ Support only immutable variables.
 
 ### Functions
 Function arguments are all copying.
+If signature of function is long, define cut two lines of signature and contents.
 
 - Declaration function: `fn <Function name> <argument_1>: <type_1> <argument_2>: <type_2> ... -> <Return type> => <Function body>;`
 - Another way of declaration function: `fn <Function name> <argument_1>: <type_1> <argument_2>: <type_2> ...;
@@ -44,3 +45,4 @@ Block can decide valid of variable.
 - Functions must have input and output.
 - Functions with no input are defined as variables.
 - Variables and functions are immutable by default.
+- Function arguments are all copying.
